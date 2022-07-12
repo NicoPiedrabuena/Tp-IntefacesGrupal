@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: 'black';
+    overflow-x: hidden;
+}
+h2{
+    text-align: center;
+}
+
+.bordeColor{
+    background-color: #ade5467e !important;
+    /* border: rgba(0, 128, 0, 0.506) solid 2px !important; */
+    border-radius: 10px !important;
+}
+
+.bordeColor:hover{
+    background-color: #ade546 !important;
+    
+    color: white !important;
+    font-weight: bold;
+    border-radius: 10px !important;
+}
+
+#collapsibleNavbar{
+    margin-left: 0%;
+}
+.dropdown-menu{
+    background-color: #ade546;
+}
+.dropdown button{
+    background-color: #ade546a8;
+}
+.dropdown button:hover{
+    background-color: #ade546;
+    color: black;
+}
+.yogabanner{
+    background-image: url("/img/banneryoga.jpg");
+}
+.musculacionbanner{
+    background-image: url("/img/bannermusculacion.jpg");
+}
+.crossfitbanner{
+    background-image: url("/img/bannercross.png")
+}
+.pilatesbanner{
+    background-image: url("/img/bannerpilates.png");
+}
+.contenedorMisTurnos{
+    display: flex;
+}
+.contenedorMisTurnos container{
+    flex-direction: row;
+}
+.navbar{
+    background-color:black ;
+}
+.containers{
+    display: flex;
+    padding-left: 400px;
+   
+}
+
+.crossfitColor{
+    background-color: #ade546;
+    color: #fff;
+}
+
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#666b67 ;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #ade546;;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#ade546;;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #ade546;
+}
+.footertext{
+  margin-left:300px;
+}
+
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footertext{
+    margin-left:300px;
+  }
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ade546;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.btn-primary{
+  background-color: #ade546 !important;
+  border-color:   #ade546 !important;
+  font-weight: bolder !important;
+  color: black !important;
+}
+
+.btn-primary:hover{
+background-color: #baf64d !important;
+border-color: #baf64d !important;
+color: #000 !important;
+
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+}
+
+@media screen and (min-width:47em){
+    
+    }
+@media (min-width:60em){
+   
+    #collapsibleNavbar{
+        margin-left: 48%;
+    }
+    
+    
+
+}
+
+
+#calendar{
+  background-color: #ade5465c;
+  border: 2px solid #769342;
+}
+
+/* .btnVerde{
+  background-color: #ade546;
+  border-color:   #ade546;
+  font-weight: bolder;
+  color: black;
+  
+}
+
+.btnVerde:hover{
+  background-color: #baf64d;
+border-color: #baf64d;;
+color: #000;
+} */
+
+.fc .fc-button-group > * {
+  background:#ade546;
+}
