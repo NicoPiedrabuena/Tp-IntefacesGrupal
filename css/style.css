@@ -240,7 +240,11 @@ footer{
     
 
 }
-
+@media (max-width: 1300px) {
+    .mapa{
+        width: 99%;
+    }
+  }
 
 #calendar{
   background-color: #ade5465c;
